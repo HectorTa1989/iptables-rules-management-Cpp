@@ -6,18 +6,18 @@ C++ library for listing, adding, modifying, and deleting iptable rules
 
 ### Using a docker container
 
-git clone https://github.com/HectorTa1989/iptables-cpp.git \
+git clone https://github.com/HectorTa1989/iptables-rules-management-Cpp.git \
 cd iptables-cpp \
 docker build -t iptables-ubuntu . \
 
 docker run -it --cap-add=NET_ADMIN --cap-add=NET_RAW iptables-ubuntu /bin/bash \
-git clone https://github.com/HectorTa1989/iptables-cpp.git \
+git clone https://github.com/HectorTa1989/iptables-rules-management-Cpp.git \
 cd iptables-cpp \
 sudo ./build.sh
 
 ### Local builds
 
-git clone https://github.com/HectorTa1989/iptables-cpp.git \
+git clone https://github.com/HectorTa1989/iptables-rules-management-Cpp.git \
 cd iptables-cpp \
 sudo ./build.sh
 
